@@ -1,30 +1,35 @@
+int L_Red = 10 ;          //это красненький
+int L_Yellow = 5 ;        //это желтенький
+int L_Green = 1 ;         //это зелененький
+
+
 void setup()
 {
-  pinMode(10, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(1, OUTPUT);
+  	pinMode(L_Red, OUTPUT);
+ 	pinMode(L_Yellow, OUTPUT);
+  	pinMode(L_Green, OUTPUT);
 }
 
   void loop ()
 {
-        digitalWrite (10, HIGH); 
+        digitalWrite (L_Red, HIGH); 
         delay (1000); 
-        digitalWrite (10, LOW);
+        digitalWrite (L_Red, LOW);
         delay (1000);
   
-              digitalWrite (5, HIGH); 
+              digitalWrite (L_Yellow, HIGH); 
               delay (1000); 
-              digitalWrite (5, LOW);
+              digitalWrite (L_Yellow, LOW);
                delay (1000);
         
-                   digitalWrite (1, HIGH); 
+                   digitalWrite (L_Green, HIGH); 
                    delay (1000); 
-                   digitalWrite (1, LOW);
+                   digitalWrite (L_Green, LOW);
                    delay (1000);
 
-                       digitalWrite (5, HIGH); 
+                       digitalWrite (L_Yellow, HIGH); 
                        delay (1000); 
-                       digitalWrite (5, LOW);
+                       digitalWrite (L_Yellow, LOW);
                        delay (1000);
      
 
