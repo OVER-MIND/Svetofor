@@ -4,7 +4,7 @@ int L_Yellow = 5 ;        //это желтенький
 int L_Green = 3 ;         //это зелененький
 
 void setup() {
-      Serial.begin (96000);
+      Serial.begin (9600);
       pinMode(L_Red, OUTPUT);
       pinMode(L_Yellow, OUTPUT);
       pinMode(L_Green, OUTPUT);
