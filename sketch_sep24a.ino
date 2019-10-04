@@ -1,9 +1,9 @@
 boolean butt_flag = 0;
 boolean butt ;
-#define knopka  13;          //это кнопочка
-#define L_Red 10 ;          //это красненький
-#define L_Yellow 5 ;        //это желтенький
-#define L_Green 3 ;         //это зелененький
+#define knopka  13           //это кнопочка
+#define L_Red 10            //это красненький
+#define L_Yellow 5         //это желтенький
+#define L_Green 3         //это зелененький
 
 void setup() {
       pinMode(L_Red, OUTPUT);
